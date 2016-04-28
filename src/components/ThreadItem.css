@@ -1,0 +1,50 @@
+.messenger-title {
+	line-height: 60px;
+	margin: 0;
+}
+
+.thread-list {
+
+}
+
+.thread-item {
+	position: relative;
+	height: 70px;
+	overflow-y: hidden;
+}
+
+.thread-item_left {
+	float: left;
+	width: 50px;
+	padding: 15px 10px;
+}
+
+.thread-item_right {
+	float: left;
+	width: calc(100% - 90px);
+	padding: 20px 10px;
+	border-bottom: 1px solid rgba(0, 0, 0, .10);
+}
+
+.thread-from {
+	font-weight: 400;
+	line-height: 1.4em;
+	color: black;
+}
+
+.thread-content {
+	color: rgba(0, 0, 0, .40);
+	font-size: 14px;
+}
+
+.thread-time {
+	color: rgba(0, 0, 0, .40);
+	position: absolute;
+	top: 23px;
+	right: 13px;
+	font-size: 14px;
+}
+
+.img-circle {
+	border-radius: 50%;
+}

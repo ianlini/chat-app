@@ -1,0 +1,14 @@
+/* clearfix 
+ * http://stackoverflow.com/questions/211383/which-method-of-clearfix-is-best
+ */
+.clearfix:before,
+.clearfix:after {
+  content:"";
+  display:table;
+}
+.clearfix:after {
+  clear:both;
+}
+.clearfix {
+  zoom:1; /* For IE 6/7 (trigger hasLayout) */
+}
